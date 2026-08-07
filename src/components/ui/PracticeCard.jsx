@@ -5,7 +5,7 @@ export default function PracticeCard({ icon, title, description }) {
   return (
     <Panel className="relative min-h-[250px] bg-[#1B1611]">
       <div className="absolute right-3 top-3 h-3 w-3 border-r border-t border-[#FF910080]" />
-      <Image src={icon} alt={title} width={52} height={52} className="mb-10" />
+      <Image src={icon} alt={title} width={80} height={80} className="mb-10" />
 
       <h3 className="text-base uppercase font-bold tracking-[0.56px] text-white">
         {title}

@@ -24,12 +24,12 @@ export default function CTASection() {
             {/* Content */}
 
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="lg:w-[90%] p-10 bg-black/50">
+              <div className="lg:w-[85%] px-10 py-25 bg-black/50">
                 <SectionHeader
                   theme="dark"
                   eyebrow="// Get Started"
                   title={
-                    <span className="mt-6 text-[32px] lg:text-[80px] font-bold tracking-[-1.68px] leading-none">
+                    <span className="mt-6 text-[32px] lg:text-[80px] 2xl:text-[80px]  font-bold tracking-[-1.68px] leading-none">
                       Tell us the problem.
                       <br />
                       Not the technology

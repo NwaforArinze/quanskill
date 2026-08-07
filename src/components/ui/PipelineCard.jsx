@@ -16,7 +16,10 @@ export default function PipelineCard({
       <div className="absolute bottom-3 right-3 h-3 w-3 border-b-2 border-r-2 border-[#FF91008C]" />
 
       {/* Icon */}
-      <div className="absolute right-4 top-12 lg:right-8 lg:top-8">
+      <div className="absolute right-4 top-12 lg:right-8 lg:top-8 hidden lg:flex">
+        <Image src={icon} alt="" width={100} height={100} />
+      </div>
+      <div className="lg:hidden pb-3">
         <Image src={icon} alt="" width={100} height={100} />
       </div>
 
@@ -26,7 +29,7 @@ export default function PipelineCard({
 
       <h3 className="mt-2 text-sm text-[#F4EFE9B2] font-light">{title}</h3>
 
-      <p className="mt-2 text-sm max-w-[70%] leading-5 text-[#F4EFE9B2] tracking-[-0.8px]">
+      <p className="mt-2 text-sm lg:max-w-[70%] 2xl:max-w-[50%] leading-5 text-[#F4EFE9B2] tracking-[-0.8px]">
         {description}
       </p>
 
@@ -37,7 +40,6 @@ export default function PipelineCard({
             className="flex items-start gap-3 font-light text-sm text-[#F4EFE999] tracking-[-0.2px] leading-5"
           >
             <span className="mt-2 h-1 w-1 rounded-full bg-[#F4EFE980]" />
-
             <span>{item}</span>
           </li>
         ))}

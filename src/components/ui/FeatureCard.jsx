@@ -14,7 +14,8 @@ export default function FeatureCard({
         group
         rounded-2xl
         border
-        p-8
+        p-6
+        lg:p-8
         transition-all
         duration-500
         hover:-translate-y-2
@@ -30,7 +31,7 @@ export default function FeatureCard({
         {title}
       </h3>
 
-      <p className="mt-2 lg:mt-3 font-light text-sm text-[#F4EFE999] tracking-[0.8px] leading-5">
+      <p className="mt-2 2xl:pr-19 lg:mt-3 font-light text-sm text-[#F4EFE999] tracking-[0.8px] leading-5">
         {description}
       </p>
 

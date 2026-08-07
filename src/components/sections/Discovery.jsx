@@ -12,18 +12,18 @@ export default function Discovery() {
     <Section id="pipeline">
       <Container>
         {/* <div className="grid gap-20 lg:grid-cols-2"> */}
-        <div className="grid items-start gap-12 lg:grid-cols-[1fr_1fr] rounded-2xl border bg-[#F2EDE6] border-[#FF91006B] px-6  lg:px-14 py-15">
+        <div className="grid items-start gap-12 lg:grid-cols-[1fr_1fr] rounded-2xl border bg-[#F2EDE6] border-[#FF91006B] px-6 lg:px-16 2xl:px-30 py-15">
           {/* LEFT */}
 
-          <div className="lg:sticky top-10 self-start w-[85%]">
+          <div className="lg:sticky top-10 self-start inline-block lg:max-w-[85%] 2xl:max-w-[60%]">
             <AnimatedSection>
               <SectionHeader
                 theme="light"
                 eyebrow="// TWO COMPANIES. ONE PIPELINE"
                 title={
-                  <div className="text-[26px] lg:text-4xl font-bold  tracking-[-0.88px] 2xl:text-5xl">
+                  <span className="text-[26px] lg:text-4xl 2xl:text-[38px] 2xl:leading-[41.8px] font-bold tracking-[-0.88px] 2xl:text-5xl">
                     Discovery and delivery should never be separate companies.
-                  </div>
+                  </span>
                 }
                 description="Most AI failures happen in the gap between advisors and
                   builders. We removed the gap."

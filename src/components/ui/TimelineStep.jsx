@@ -17,7 +17,7 @@ export default function TimelineStep({
           }`}
           style={{
             transform: "translateX(32px)",
-            width: "calc(100% - 32px)",
+            width: "calc(100% - 16px)",
           }}
         />
       )}
@@ -32,11 +32,11 @@ export default function TimelineStep({
         {id}
       </div>
 
-      <h3 className="text-base mt-6 font-bold uppercase tracking-[0.56px] text-white">
+      <h3 className="text-base 2xl:text-[18px] mt-6 font-bold uppercase tracking-[0.56px] text-white">
         {title}
       </h3>
 
-      <p className="font-heading font-light mt-4 max-w-[220px] text-sm leading-6 text-[#F4EFE9] tracking-[-0.36px] xl:max-w-[180px]">
+      <p className="font-heading font-light mt-4 max-w-[220px] text-sm 2xl:text-base leading-6 text-[#F4EFE9] tracking-[-0.36px] 2xl:max-w-[300px]">
         {description}
       </p>
     </div>
