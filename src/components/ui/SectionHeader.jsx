@@ -33,7 +33,7 @@ export default function SectionHeader({
       )}
 
       <h2
-        className={`font-heading text-xl lg:text-2xl leading-[30px] ${colors[theme].title} 2xl:text-3xl font-medium tracking-[-1.3px]`}
+        className={`font-heading text-xl lg:text-2xl leading-[30px] 2xl:leading-[33.8px] ${colors[theme].title} 2xl:text-[26px] font-medium tracking-[-1.3px]`}
       >
         {title}
       </h2>

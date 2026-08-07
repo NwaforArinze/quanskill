@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Plus, Minus } from "lucide-react";
 
 export default function Accordion({ items }) {
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(null);
 
   return (
     <div className="divide-y divide-[#1A120D24]">

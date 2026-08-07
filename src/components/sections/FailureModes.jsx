@@ -10,7 +10,7 @@ export default function FailureModes() {
   return (
     <Section id="why">
       <Container>
-        <div className="rounded-2xl border border-[#FF91006B] bg-[url('/images/backgrounds/failure-bg.webp')] bg-cover bg-center bg-no-repeat px-6 py-15 lg:px-14 lg:py-20">
+        <div className="rounded-2xl border border-[#FF91006B] bg-[url('/images/backgrounds/failure-bg.webp')] bg-cover bg-center bg-no-repeat px-6 lg:px-16 2xl:px-30 py-15 lg:py-20">
           <div className="absolute left-6 lg:left-12 top-3 h-5 w-5 border-l-2 border-t-2 border-[#1A120DB8]" />
           <div className="absolute top-3 right-6 lg:right-12 h-5 w-5 border-t-2 border-r-2 border-[#1A120DB8]" />
           <AnimatedSection>

@@ -10,7 +10,7 @@ export default function PracticeDomains() {
   return (
     <Section id="practice">
       <Container>
-        <div className="rounded-2xl border bg-[#14100D] border-[#FF91006B] px-6 py-15 lg:px-14 lg:py-20">
+        <div className="rounded-2xl border bg-[#14100D] border-[#FF91006B] px-6 lg:px-16 2xl:px-30  py-15 lg:py-20">
           <AnimatedSection>
             <SectionHeader
               align="center"

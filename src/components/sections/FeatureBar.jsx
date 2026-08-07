@@ -5,7 +5,7 @@ export default function FeatureBar() {
   return (
     <section className="relative overflow-hidden">
       <Container className="max-w-none px-10">
-        <div className="marquee rounded-2xl border border-[#FF91006B] bg-[#14100D] px-8 lg:px-10 py-16">
+        <div className="marquee rounded-2xl border border-[#FF91006B] bg-[#14100D] px-8 lg:px-16 2xl:px-30 py-15 lg:py-18 2xl:py-20">
           <div className="m-auto font-heading mb-7 max-w-3xl text-center text-lg 2xl:text-xl font-bold tracking-[-0.4px] text-[#F4EFE9]">
             <h2>
               Built by AI engineers, product architects and domain specialists.

@@ -5,11 +5,11 @@ export default function ContactCTA() {
   return (
     <section>
       <Container>
-        <div className="bg-[#14100D] relative mx-auto text-center rounded-2xl border border-[#FF91006B] p-6 lg:px-14 py-15 lg:py-20">
+        <div className="bg-[#14100D] relative mx-auto text-center rounded-2xl border border-[#FF91006B] px-6 lg:px-16 2xl:px-30 py-15 lg:py-20">
           <div className="absolute left-3 top-3 h-6 w-6 border-l-2 border-t-2 border-[#FF91008C]" />
           <div className="absolute bottom-3 right-3 h-6 w-6 border-b-2 border-r-2 border-[#FF91008C]" />
 
-          <p className="font-heading mx-auto max-w-5xl text-2xl leading-10 lg:text-5xl font-bold lg:leading-14 text-[#FF9100]">
+          <p className="font-heading mx-auto max-w-5xl 2xl:max-w-6xl text-2xl leading-10 lg:text-5xl 2xl:text-[52px] font-bold lg:leading-14 2xl:leading-[62.4px] text-[#FF9100]">
             Tell us the problem. Not the technology. Describe what&apos;s
             costing your organisation money, time or risk today. We&apos;ll tell
             you honestly whether AI is the right solution.

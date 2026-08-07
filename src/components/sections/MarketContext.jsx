@@ -10,7 +10,7 @@ export default function MarketContext() {
   return (
     <Section id="market">
       <Container>
-        <div className="rounded-2xl border bg-[#F2EDE6] border-[#FF91006B] px-6 py-15  lg:px-14 lg:py-20">
+        <div className="rounded-2xl border bg-[#F2EDE6] border-[#FF91006B] px-6 lg:px-16 2xl:px-30 py-15 lg:py-20">
           {/* Heading Row */}
           <div className="grid gap-3 lg:gap-12 lg:grid-cols-2 lg:items-start">
             <AnimatedSection>
@@ -18,7 +18,7 @@ export default function MarketContext() {
                 theme="light"
                 eyebrow="// Market Context"
                 title={
-                  <span className="text-3xl font-bold tracking-[-0.68px] leading-9">
+                  <span className="text-3xl 2xl:text-[34px] font-bold tracking-[-0.68px] leading-9 2xl:leading-[37.8px]">
                     AI adoption is growing.
                     <br /> Production is still the
                     <br /> bottleneck.

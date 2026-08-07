@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <section id="hero" className="relative overflow-hidden pt-17 lg:pt-18 py-1">
       <Container>
-        <div className="grid min-h-[700px] items-start gap-12 lg:gap-24 lg:grid-cols-[1.8fr_1.2fr] rounded-2xl border border-[#FF91006B] p-6 lg:px-14 py-15 bg-[url('/images/hero/hero-background.webp')] bg-cover bg-center bg-no-repeat">
+        <div className="grid min-h-[700px] items-start gap-12 2xl:gap-100 lg:gap-24 lg:grid-cols-[1.8fr_1.2fr] rounded-2xl border border-[#FF91006B] px-6 lg:px-16 2xl:px-30 py-15 bg-[url('/images/hero/hero-background.webp')] bg-cover bg-center bg-no-repeat bg-[#0D0908]/40 bg-blend-multiply">
           {/* Left */}
           <AnimatedSection>
             <div className="lg:pb-50">
@@ -24,7 +24,7 @@ export default function Hero() {
                   system
                 </h1>
 
-                <p className="font-heading font-normal mt-8 max-w-xl text-base 2xl:text-[18px] leading-6 tracking-[-0.36px] text-[#F4EFE9D1]">
+                <p className="font-heading font-normal mt-4 max-w-xl text-base 2xl:text-[18px] leading-6 tracking-[-0.36px] text-[#F4EFE9D1]">
                   QuanSkill finds the right AI opportunity and designs the
                   solution. QuanSolutions builds it, deploys it and keeps it
                   running. One team, start to finish — no gaps, no handoffs, no
@@ -44,7 +44,7 @@ export default function Hero() {
 
           {/* Right */}
           <AnimatedSection>
-            <div className="w-full flex justify-center lg:self-end">
+            <div className="w-full flex justify-center lg:self-end lg:mt-70 2xl:mt-80">
               <div className="space-y-6">
                 <div>
                   <Image
